@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="../src/reset.css">
+    <link rel="stylesheet" type="text/css" href="../src/index.css">
 </head>
 <body>
+    <!-- google gapi example code -->
     <script>
+
+
         var GoogleAuth;
         var SCOPE = 'https://www.googleapis.com/auth/drive.metadata.readonly';
         function handleClientLoad() {
@@ -25,8 +28,8 @@
           // Get API key and client ID from API Console.
           // 'scope' field specifies space-delimited list of access scopes.
           gapi.client.init({
-              'apiKey': 'AIzaSyBewYHsYm_zZRAOEjWEh4baZR4IDykVWcs',
-              'clientId': '45125960194-qpod1dmeu319c89961dp3g0bfje3ikms.apps.googleusercontent.com',
+              'apiKey': '',
+              'clientId': '',
               'discoveryDocs': [discoveryUrl],
               'scope': SCOPE
           }).then(function () {
