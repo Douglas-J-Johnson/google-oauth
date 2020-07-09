@@ -1,1 +1,3 @@
-console.log("here")
+env = require('../env')
+
+console.log(env)

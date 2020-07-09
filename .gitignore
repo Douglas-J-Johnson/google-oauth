@@ -1,1 +1,2 @@
-.env
+dist/bundle.js
+env.js
